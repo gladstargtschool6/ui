@@ -6,7 +6,7 @@ const { Text } = Typography
 // Create a single supabase client for interacting with your database
 const supabase = createClient(
   "https://imdvvfcbtrfewysxgrnr.supabase.co",
-  "public-anon-key"
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYxNDMzNzg3MSwiZXhwIjoxOTI5OTEzODcxfQ.O7Ck0RFbXxsJ9BpxdAuey5O_MJcC_lHM06xDYKTbWxg"
 );
 
 const Container = (props) => {
